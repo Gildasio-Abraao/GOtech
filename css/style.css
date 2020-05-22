@@ -796,6 +796,9 @@ footer {
     #group2195 {
         display: none;
     }
+    .search-nav button {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 320px) {
