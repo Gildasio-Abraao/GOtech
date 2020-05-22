@@ -38,10 +38,16 @@ function scrollToTop() {
     let pageup = window.pageYOffset;
     let group1 = document.getElementById('group1');
     let group2 = document.getElementById('group2');
+    let group3 = document.getElementById('group3');
+    let group4 = document.getElementById('group4');
     //fazendo animação imagem e linha
     if(pageup > 472) {
         group1.style = 'animation: group1-animation 0.5s; opacity: 1;';
         group2.style = 'animation: group2-animation 0.5s; opacity: 1;';
+    }
+    if(pageup > 870) {
+        group3.style = 'animation: group1-animation 0.5s; opacity: 1;';
+        group4.style = 'animation: group2-animation 0.5s; opacity: 1;';
     }
     console.log(pageup)
     //menu fixo
