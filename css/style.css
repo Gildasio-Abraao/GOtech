@@ -58,6 +58,12 @@ nav a img {
 nav a:hover  {
     color: #9d60eb;
 }
+nav a:focus {
+    color: #9d60eb;
+}
+nav a:focus img {
+    display: block;
+}
 nav a:hover img{
     display: block;
 }
@@ -80,6 +86,10 @@ nav a:hover img{
     margin-left: -39px;
     margin-top: 11px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.search-nav img:hover {
+    transform: scale(1.1);
 }
 .search-nav button  {
     background: linear-gradient(36deg, #856DD7, #b97bdd);
